@@ -1,0 +1,222 @@
+.hero{
+    background:#f7f7f7;
+}
+
+// here banner
+.object-fit-cover{
+    object-fit: cover;
+}
+
+.w-95{
+    width:95%;
+}
+.object-fit-cover{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+
+}
+
+.small-banner{
+    height: 240px;
+}
+
+
+// inspiration-section
+.inspiration-section img{
+    object-fit: cover;
+}
+
+.inspiration-section .rounded-4{
+    border-radius: 20px !important;
+}
+
+// .trending-section
+.trending-section{
+    border-top: 1px solid #e5e5e5;
+    padding-top: 10px;
+    margin-top: 15px;
+}
+.w-95{
+    width:95%;
+}
+
+.trending-section {
+
+    .container-fluid {
+        width: 95%;
+        margin: auto;
+    }
+
+    h3 {
+        font-size: 26px;
+        font-weight: 500;
+    }
+
+    .btn-category {
+
+        border: 1px solid #ddd;
+        background: #fff;
+        border-radius: 30px;
+        font-size: 12px;
+        padding: 8px 18px;
+
+        &:hover {
+            background: #111;
+            color: #fff;
+        }
+
+        &.active {
+            background: #111;
+            color: white;
+            border-color: #111;
+        }
+
+    }
+
+    .product-card {
+
+        h6 {
+            font-size: 16px;
+            margin-top: 15px;
+        }
+
+        span {
+            color: #666;
+            font-size: 14px;
+        }
+
+    }
+
+    .product-image {
+
+        height: 260px;
+        border-radius: 22px;
+        overflow: hidden;
+        background: #f5f5f5;
+
+        img {
+            transition: .4s;
+        }
+
+        &:hover img {
+            transform: scale(1.05);
+        }
+
+    }
+
+    .big-image {
+        height: 260px;
+    }
+
+    .wishlist {
+
+        position: absolute;
+        top: 15px;
+        right: 15px;
+
+        width: 32px;
+        height: 32px;
+
+        border: 0;
+        border-radius: 50%;
+
+        background: rgba(255,255,255,.9);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        color: #888;
+        font-size: 14px;
+
+    }
+
+}
+
+@media (max-width:992px){
+
+    .trending-section{
+
+        .product-image,
+        .big-image{
+            height:230px;
+        }
+
+    }
+
+}
+
+@media (max-width:768px){
+
+    .trending-section{
+
+        h3{
+            font-size:22px;
+        }
+
+        .product-image,
+        .big-image{
+            height:220px;
+        }
+
+        .btn-category{
+            font-size:11px;
+            padding:7px 14px;
+        }
+
+    }
+
+}
+
+@media (max-width:576px){
+
+    .trending-section{
+
+        .container-fluid{
+            width:100%;
+        }
+
+        .product-image,
+        .big-image{
+            height:200px;
+        }
+
+    }
+
+}
+
+/* ===================================
+   Explore By Colors
+=================================== */
+.explore-heading{
+    min-width: auto;
+    margin-right: 20px;  
+    
+}
+
+.explore-colors{
+    margin-left:170px;
+}
+
+@media (max-width:991px){
+
+    .explore-colors{
+        margin-left:0;
+    }
+
+}
+
+// why you'll love to section
+.w-95{
+    width:95%;
+    margin:auto;
+}
+// from the blog section
+.w-95{
+    width:95%;
+    margin:auto;
+}
+
+

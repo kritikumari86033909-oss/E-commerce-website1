@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-COMMERCE-WEBSITE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <script type="module" src="./assets/js/main.js"></script>
+</head>
+
+<body>
+    <header>
+
+        <!-- Top Header -->
+        <div class="top-header border-bottom py-2 d-none d-lg-block">
+            <div class="container-fluid w-95 mx-auto px-0 px-lg-3 ps-3 pe-lg-4">
+                <div class="d-flex justify-content-between align-items-center">
+
+                    <div class="d-flex gap-4 small">
+                        <a href="#" class="text-decoration-none text-dark">English</a>
+                        <a href="#" class="text-decoration-none text-dark">Dollar</a>
+                    </div>
+
+                    <div class="d-flex gap-4 small">
+                        <a href="#" class="text-decoration-none text-dark">Tracking Package</a>
+                        <a href="#" class="text-decoration-none text-dark">FAQ</a>
+                        <a href="#" class="text-decoration-none text-dark">About Us</a>
+                        <a href="#" class="text-decoration-none text-dark">Contact Us</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Navbar -->
+        <nav class="navbar navbar-expand-lg bg-white py-3">
+            <div class="container-fluid w-95 mx-auto px-0 px-lg-3 ps-3 pe-lg-2">
+
+                <!-- Logo -->
+                <a class="navbar-brand fw-bold fs-4 text-uppercase mb-0" href="#">
+                    ECOMMERCE
+                </a>
+
+                <!-- Mobile Icons -->
+                <div class="d-flex align-items-center gap-3 ms-auto me-3 d-none">
+                    <a href="#" class="text-decoration-none">
+                        <img src="./assets/icons/heart-vector.svg" alt="Wishlist" width="20" height="20">
+                    </a>
+                    <a href="#" class="text-decoration-none">
+                        <img src="./assets/icons/user-icon.svg" alt="User" width="20" height="20">
+                    </a>
+                    <a href="#" class="text-decoration-none">
+                        <img src="./assets/icons/cart-vector.svg" alt="Cart" width="20" height="20">
+                    </a>
+                </div>
+
+                <!-- Toggler -->
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu"
+                    aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Menu -->
+                <div class="collapse navbar-collapse mt-3 mt-lg-0" id="mainMenu">
+
+                    <div class="row w-100 g-3 align-items-center">
+
+                        <!-- Search -->
+                        <div class="col-12 col-lg-5">
+                            <div class="position-relative w-100">
+                                <input type="search" class="form-control rounded-pill pe-5" placeholder="Search here">
+                                <img src="./assets/icons/search.svg" alt="Search" width="16" height="16"
+                                    class="position-absolute top-50 end-0 translate-middle-y me-3">
+                            </div>
+                        </div>
+
+                        <!-- Category -->
+                        <div class="col-12 col-lg-2">
+                            <select class="form-select border-0 shadow-none bg-transparent">
+                                <option selected>All Category</option>
+                                <option>Men</option>
+                                <option>Women</option>
+                                <option>Shoes</option>
+                            </select>
+                        </div>
+
+                        <!-- Navigation -->
+                        <div class="col-12 col-lg">
+                            <ul class="navbar-nav justify-content-lg-center flex-column flex-lg-row gap-lg-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#">Gift Cards</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Special Event</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Desktop Icons -->
+                        <div class="col-lg-auto d-none d-lg-block">
+                            <div class="d-flex align-items-center gap-4">
+                                <a href="#" class="text-decoration-none">
+                                    <img src="./assets/icons/heart-vector.svg" alt="Wishlist" width="20" height="20">
+                                </a>
+                                <a href="#" class="text-decoration-none">
+                                    <img src="./assets/icons/user-icon.svg" alt="User" width="20" height="20">
+                                </a>
+                                <a href="#" class="text-decoration-none">
+                                    <img src="./assets/icons/cart_icon.svg" alt="Cart" width="20" height="20">
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+
+    <!-- ================= Hero Section ================= -->
+
+    <section class="hero-section pt-3 pb-0">
+
+        <div class="container-fluid w-95 mx-auto px-lg-3 ps-3 pe-lg-4">
+
+            <div class="row g-3">
+
+                <!-- Left Hero Banner -->
+                <div class="col-lg-8">
+
+                    <div class="position-relative overflow-hidden rounded-4 h-100">
+
+                        <img src="./assets/images/here-banner.png" class="img-fluid w-100 h-100 object-fit-cover"
+                            alt="Hero Banner">
+
+                        <div class="position-absolute top-0 start-0 p-4 p-lg-5 text-white">
+
+                            <h1 class="display-3 fw-light lh-1 mb-3">
+                                Color of <br>
+                                Summer <br>
+                                Outfit
+                            </h1>
+
+                            <p class="mb-4">
+                                100+ Collections for your outfit inspiration
+                                in this summer
+                            </p>
+
+                            <a href="#" class="btn btn-dark rounded-pill px-4">
+                                VIEW COLLECTIONS
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Right Side -->
+                <div class="col-lg-4">
+
+                    <div class="row g-3 h-100">
+
+                        <!-- Card 1 -->
+                        <div class="col-12">
+
+                            <div class="position-relative overflow-hidden rounded-4 h-100">
+
+                                <img src="./assets/images/outsider.png" class="img-fluid w-100 h-100 object-fit-cover"
+                                    alt="Outdoor">
+
+                                <div class="position-absolute top-0 start-0 p-4">
+
+                                    <h3 class="fw-light mb-0">
+                                        Outdoor
+                                    </h3>
+
+                                    <h3 class="fw-light">
+                                        Active
+                                    </h3>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div class="col-12">
+
+                            <div class="small-bnner position-relative overflow-hidden rounded-4 h-100">
+
+                                <img src="./assets/images/casual.png" class="img-fluid w-100 h-100 object-fit-cover"
+                                    alt="Casual">
+
+                                <div class="position-absolute top-0 start-0 p-4">
+
+                                    <h3 class="fw-light  text-white  mb-0">
+                                        Casual <br>
+                                        Comfort
+                                    </h3>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="bg-white pt-0 pb-3 inspiration-section">
+
+        <div class="container-fluid ">
+
+            <div class="row align-items-center w-95 mx-auto px-0 g-4">
+
+                <!-- Left -->
+                <div class="col-12 col-lg-3 order-1 mb-4 mb-lg-0">
+
+                    <h2 class="display-5 fw-bold lh-1 mb-3 text-dark">
+                        Casual <br>
+                        Inspirations
+                    </h2>
+
+                    <p class="text-secondary small mb-4">
+                        Our favorite combinations for casual outfit
+                        that can inspire you to apply on your daily activity.
+                    </p>
+
+                    <a href="#" class="btn btn-outline-dark rounded-pill px-4 py-2">
+                        BROWSE INSPIRATIONS
+                    </a>
+
+                </div>
+
+                <!-- Right -->
+                <div class="col-12 col-lg-9 order-2">
+
+                    <div class="row g-4">
+
+                        <!-- Card 1 -->
+                        <div class="col-12 col-md-6">
+
+                            <div class="position-relative rounded-4 overflow-hidden h-100">
+
+                                <img src="./assets/images/modes.png" class="img-fluid w-100 h-100 object-fit-cover d-none d-md-block"
+                                    alt="shirt">
+
+                                <div class="position-absolute bottom-0 start-0 p-4 text-white">
+
+                                    <h3 class="fw-medium mb-0 text-white">
+                                        Say it <br>
+                                        with Shirt
+                                    </h3>
+
+                                </div>
+
+                                <a href="#" class="position-absolute bottom-0 end-0 p-4">
+
+                                    <img src="./assets/icons/short_right.svg" width="35" alt="arrow">
+
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div class="col-12 col-md-6">
+
+                            <div class="position-relative rounded-4 overflow-hidden h-100">
+
+                                <img src="./assets/images/modes1.png" class="img-fluid w-100 h-100 object-fit-cover d-none d-md-block"
+                                    alt="fashion">
+
+                                <div class="position-absolute bottom-0 start-0 p-4 text-white">
+
+                                    <h3 class="fw-medium mb-0 text-white">
+                                        Funky never <br>
+                                        get old
+                                    </h3>
+
+                                </div>
+
+                                <a href="#" class="position-absolute bottom-0 end-0 p-4">
+
+                                    <img src="./assets/icons/short_right.svg" width="35" alt="arrow">
+
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="trending-section pt-2 pb-3">
+        <div class="container-fluid px-lg-5 px-3">
+
+            <!-- Heading -->
+            <div class="d-flex justify-content-between align-items-center flex-wrap gap-3 mb-4">
+
+                <h3 class="m-0 fw-medium">Trending</h3>
+
+                <div class="d-flex flex-wrap gap-2">
+
+                    <button class="btn btn-category" data-category="shorts">SHORTS</button>
+                    <button class="btn btn-category" data-category="hat">HAT</button>
+                    <button class="btn btn-category" data-category="jackets">JACKETS</button>
+                    <button class="btn btn-category active" data-category="shoes">SHOES</button>
+                    <button class="btn btn-category" data-category="tshirt">T-SHIRT</button>
+                </div>
+
+            </div>
+
+            <!-- Products -->
+            <div class="row g-4">
+
+                <!-- Product -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="product-card">
+
+                        <div class="product-image position-relative">
+
+                            <img src="./assets/images/black-shose.png" class="img-fluid w-100 h-100 object-fit-cover"
+                                alt="">
+
+                            <button class="wishlist">
+                                <img src="./assets/icons/heart-icon.svg" alt="">
+                            </button>
+
+                        </div>
+
+                        <h6 class="mt-3 mb-1">Casual Shoe</h6>
+                        <span>$225</span>
+
+                    </div>
+                </div>
+
+                <!-- Product -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="product-card">
+
+                        <div class="product-image position-relative">
+
+                            <img src="./assets/images/white-shose.png" class="img-fluid w-100 h-100 object-fit-cover"
+                                alt="">
+
+                            <button class="wishlist">
+                                <img src="./assets/icons/heart-icon-1.svg" alt="">
+                            </button>
+
+                        </div>
+
+                        <h6 class="mt-3 mb-1">Skateboard Shoe</h6>
+                        <span>$125</span>
+
+                    </div>
+                </div>
+
+                <!-- Big Card -->
+                <div class="col-lg-6">
+                    <div class="product-card">
+
+                        <div class="product-image big-image position-relative">
+
+                            <img src="./assets/images/red-shose.png" class="img-fluid w-100 h-100 object-fit-cover"
+                                alt="">
+
+                            <button class="wishlist">
+                                <img src="./assets/icons/heart-icon-1.svg" alt="">
+                            </button>
+
+                        </div>
+
+                        <h6 class="mt-3 mb-1">Skateboard Shoe</h6>
+                        <span>$125</span>
+
+                    </div>
+                </div>
+
+                <!-- Big Card -->
+                <div class="col-lg-6">
+                    <div class="product-card">
+
+                        <div class="product-image big-image position-relative">
+
+                            <img src="./assets/images/brown-shose.png" class="img-fluid w-100 h-100 object-fit-cover"
+                                alt="">
+
+                            <button class="wishlist">
+                                <img src="./assets/icons/heart-icon-1.svg" alt="">
+                            </button>
+
+                        </div>
+
+                        <h6 class="mt-3 mb-1">Skateboard Shoe</h6>
+                        <span>$125</span>
+
+                    </div>
+                </div>
+
+                <!-- Small -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="product-card">
+
+                        <div class="product-image position-relative">
+
+                            <img src="./assets/images/black-and-white-shose.png"
+                                class="img-fluid w-100 h-100 object-fit-cover" alt="">
+
+                            <button class="wishlist">
+                                <img src="./assets/icons/heart-icon-1.svg" alt="">
+                            </button>
+
+                        </div>
+
+                        <h6 class="mt-3 mb-1">Basket Shoe</h6>
+                        <span>$125</span>
+
+                    </div>
+                </div>
+
+                <!-- Small -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="product-card">
+
+                        <div class="product-image position-relative">
+
+                            <img src="./assets/images/orange-shose.png" class="img-fluid w-100 h-100 object-fit-cover"
+                                alt="">
+
+                            <button class="wishlist">
+                                <img src="./assets/icons/heart-icon-1.svg" alt="">
+                            </button>
+
+                        </div>
+
+                        <h6 class="mt-3 mb-1">Sportwear Shoe</h6>
+                        <span>$159</span>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <section class="explore-color-section py-5 border-top border-secondary-subtle">
+
+        <div class="container-fluid px-lg-5 px-3">
+
+            <div class="d-lg-flex align-items-center gap-5">
+
+                <!-- Heading -->
+                <div class="explore-heading flex-shrink-0 mb-4 mb-lg-0" style="margin-left:35px;">
+
+                    <h2 class="fw-light lh-1 mb-0">
+                        Explore <br>
+                        by Colors
+                    </h2>
+
+                </div>
+
+                <!-- Colors -->
+                <div class="explore-colors mt-4 mt-lg-0">
+
+                    <!-- First Row -->
+                    <div class="d-flex flex-wrap gap-2 mb-2">
+
+                        <a href="#"
+                            class="text-decoration-none text-dark border rounded-pill px-3 py-2 d-flex align-items-center">
+                            <span class="rounded-circle me-2" style="width:16px;height:16px;background:#ef6b6b;"></span>
+                            <small>RED PASTEL</small>
+                        </a>
+
+                        <a href="#"
+                            class="text-decoration-none text-dark border rounded-pill px-3 py-2 d-flex align-items-center">
+                            <span class="rounded-circle me-2" style="width:16px;height:16px;background:#b7d73a;"></span>
+                            <small>LIME GREEN</small>
+                        </a>
+
+                        <a href="#"
+                            class="text-decoration-none text-dark border rounded-pill px-3 py-2 d-flex align-items-center">
+                            <span class="rounded-circle me-2" style="width:16px;height:16px;background:#243f72;"></span>
+                            <small>NAVY BLUE</small>
+                        </a>
+
+                        <a href="#"
+                            class="text-decoration-none text-dark border rounded-pill px-3 py-2 d-flex align-items-center">
+                            <span class="rounded-circle border me-2"
+                                style="width:16px;height:16px;background:#fff;"></span>
+                            <small>CLEAN WHITE</small>
+                        </a>
+
+                    </div>
+
+                    <!-- Second Row -->
+                    <div class="d-flex flex-wrap gap-2">
+
+                        <a href="#"
+                            class="text-decoration-none text-dark border rounded-pill px-3 py-2 d-flex align-items-center">
+                            <span class="rounded-circle me-2" style="width:16px;height:16px;background:#67b7ff;"></span>
+                            <small>BLUE SKY</small>
+                        </a>
+
+                        <a href="#"
+                            class="text-decoration-none text-dark border rounded-pill px-3 py-2 d-flex align-items-center">
+                            <span class="rounded-circle me-2" style="width:16px;height:16px;background:#9b5de5;"></span>
+                            <small>PURPLE</small>
+                        </a>
+
+                        <a href="#"
+                            class="text-decoration-none text-dark border rounded-pill px-3 py-2 d-flex align-items-center">
+                            <span class="rounded-circle me-2" style="width:16px;height:16px;background:#ff5ca8;"></span>
+                            <small>PINK</small>
+                        </a>
+
+                        <a href="#"
+                            class="text-decoration-none text-dark border rounded-pill px-3 py-2 d-flex align-items-center">
+                            <span class="rounded-circle me-2" style="width:16px;height:16px;background:#f5c63d;"></span>
+                            <small>YELLOW</small>
+                        </a>
+
+                        <a href="#"
+                            class="text-decoration-none text-dark border rounded-pill px-3 py-2 d-flex align-items-center">
+                            <span class="rounded-circle me-2" style="width:16px;height:16px;background:#2d7d4d;"></span>
+                            <small>DARK GREEN</small>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="py-5 pt-3 pb-5">
+        <div class="container-fluid w-95">
+
+            <div class="testimonial rounded-5 overflow-hidden">
+
+                <div class="row align-items-center min-vh-75">
+
+                    <div class="col-lg-6 col-xl-5">
+
+                        <div class="p-4 p-md-5 text-white">
+
+                            <p class="fs-5 mb-3">
+                                What people said
+                            </p>
+
+                            <h2 class="display-4 fw-normal lh-sm mb-4">
+                                Love the way they handle the order.
+                            </h2>
+
+                            <p class="mb-5 opacity-75">
+                                Very professional and friendly at the same time.
+                                They packed the order on schedule and the detail
+                                of their wrapping is top notch. One of my best
+                                experience for buying online items. Surely will
+                                come back for another purchase.
+                            </p>
+
+                            <h4 class="fw-bold mb-1">
+                                Samantha William
+                            </h4>
+
+                            <p class="mb-0 opacity-75">
+                                Fashion Enthusiast
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="py-3 border-top border-secondary-subtle">
+
+        <div class="container-fluid w-95">
+
+            <!-- Heading -->
+
+            <div class="row mb-5">
+
+                <div class="col-12 col-lg-5">
+
+                    <h2 class="display-5 fw-normal lh-sm mb-0">
+                        Why you'll love to <br class="d-none d-lg-block">
+                        shop on our website
+                    </h2>
+
+                </div>
+
+            </div>
+
+            <!-- Features -->
+
+            <div class="row g-5">
+
+                <!-- Card 1 -->
+
+                <div class="col-12 col-md-6 col-lg-4">
+
+                    <div class="h-100">
+
+                        <div
+                            class="bg-dark rounded-circle d-inline-flex align-items-center justify-content-center mb-4">
+
+                            <img src="./assets/icons/love-icons.svg" width="50" height="50" class="img-fluid"
+                                alt="Heart">
+
+                        </div>
+
+                        <h5 class="fw-semibold">
+                            Take care with love
+                        </h5>
+
+                        <p class="text-secondary small mb-0">
+                            We take care your package with full of attention and of
+                            course full of love. We want to make sure you'll receive
+                            your package like you receive your birthday gift.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- Card 2 -->
+
+                <div class="col-12 col-md-6 col-lg-4">
+
+                    <div class="h-100">
+
+                        <div
+                            class="bg-dark rounded-circle d-inline-flex align-items-center justify-content-center mb-4">
+
+                            <img src="./assets/icons/call-icons.svg" width="50" height="50" class="img-fluid"
+                                alt="Phone">
+
+                        </div>
+
+                        <h5 class="fw-semibold">
+                            Friendly Customer Service
+                        </h5>
+
+                        <p class="text-secondary small mb-0">
+                            You do not need to worry when you want to check your
+                            package. We will always answer whatever your questions.
+                            Just click on the chat icon and we will talk.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- Card 3 -->
+
+                <div class="col-12 col-md-6 col-lg-4">
+
+                    <div class="h-100">
+
+                        <div
+                            class="bg-dark rounded-circle d-inline-flex align-items-center justify-content-center mb-4">
+
+                            <img src="./assets/icons/refresh-icons.svg" width="50" height="50" class="img-fluid"
+                                alt="Refund">
+
+                        </div>
+
+                        <h5 class="fw-semibold">
+                            Refund Process
+                        </h5>
+
+                        <p class="text-secondary small mb-0">
+                            Refund is a such bad experience and we don't want that
+                            thing happen to you. But when it's happen we will make
+                            sure you will through smooth and friendly process.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="py-5  pt-3 pb-5">
+
+        <div class="container-fluid w-95">
+
+            <!-- Heading -->
+
+            <div class="row mb-4">
+
+                <div class="col-12">
+
+                    <h2 class="display-6 fw-normal mb-0">
+                        From The Blog
+                    </h2>
+
+                </div>
+
+            </div>
+
+            <!-- Blog -->
+
+            <div class="row align-items-center g-4">
+
+                <!-- Image -->
+
+                <div class="col-12 col-lg-6">
+
+                    <img src="./assets/images/blog-images.png" class="img-fluid rounded-5 w-100" alt="Blog">
+
+                </div>
+
+                <!-- Content -->
+
+                <div class="col-12 col-lg-6">
+
+                    <h2 class="display-5 fw-normal lh-sm mb-4">
+                        How to combine your <br class="d-none d-lg-block">
+                        daily outfit to looks <br class="d-none d-lg-block">
+                        fresh and cool.
+                    </h2>
+
+                    <p class="text-secondary small mb-4">
+                        Maybe you don't need to buy new clothes to have nice,
+                        cool, fresh looking outfit everyday. Maybe what you need
+                        is to combine your clothes collections. Mix and match is
+                        the key.
+                    </p>
+
+                    <button class="btn btn-outline-dark rounded-pill px-4">
+                        READ MORE
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="bg-dark py-5">
+        <div class="container-fluid w-95 mx-auto px-lg-3 px-3">
+
+            <div class="row gy-4 gx-lg-5">
+
+                <!-- Left -->
+                <div class="col-lg-5">
+
+                    <h5 class="text-white fw-bold text-uppercase mb-3">
+                        Ecommerce
+                    </h5>
+
+                    <p class="text-secondary mb-4" style="max-width:330px;">
+                        Ecommerce is a free UI Kit from Paperpillar that you can
+                        use for your personal or commercial project.
+                    </p>
+
+                    <form class="d-flex flex-column flex-sm-row gap-2 align-items-start align-items-sm-center">
+
+                        <input type="email" class="form-control rounded-pill bg-dark text-white border-secondary w-100"
+                            placeholder="Type your email address" style="max-width: 220px;">
+
+                        <button class="btn btn-light rounded-pill px-4 fw-semibold">
+                            Submit
+                        </button>
+
+                    </form>
+
+                </div>
+
+                <!-- Right -->
+                <div class="col-lg-7">
+
+                    <div class="row gy-4 gx-lg-5 px-lg-3">
+
+                        <!-- Popular -->
+                        <div class="col-6 col-md-4 col-lg-4">
+
+                            <h6 class="text-white text-uppercase small fw-bold mb-3">
+                                Popular
+                            </h6>
+
+                            <ul class="list-unstyled  m-0 p-0 w-100">
+
+                                <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Shoes</a></li>
+
+                                <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">T-Shirt</a>
+                                </li>
+
+                                <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Jackets</a>
+                                </li>
+
+                                <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Hat</a></li>
+
+                                <li><a href="#" class="text-secondary text-decoration-none">Accessories</a></li>
+
+                            </ul>
+
+                        </div>
+
+                        <!-- Menu -->
+                        <div class="col-6 col-md-4 col-lg-4">
+
+                            <h6 class="text-white text-uppercase small fw-bold mb-3">
+                                Menu
+                            </h6>
+
+                            <ul class="list-unstyled m-0 p-0 w-100">
+
+                                <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">All
+                                        Category</a></li>
+
+                                <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Gift Cards</a>
+                                </li>
+
+                                <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Special
+                                        Events</a></li>
+
+                                <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Testimonial</a>
+                                </li>
+
+                                <li><a href="#" class="text-secondary text-decoration-none">Blog</a></li>
+
+                            </ul>
+
+                        </div>
+
+                        <!-- Other -->
+                        <div class="col-6 col-md-4 col-lg-4">
+
+                            <h6 class="text-white text-uppercase small fw-bold mb-3" style="width:0px;">
+                                Other
+                            </h6>
+
+                            <ul class="list-unstyled m-0 p-0 w-100">
+
+                                <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Tracking
+                                        Package</a></li>
+
+                                <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">FAQ</a></li>
+
+                                <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">About Us</a>
+                                </li>
+
+                                <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Contact Us</a>
+                                </li>
+
+                                <li><a href="#" class="text-secondary text-decoration-none">Terms and Conditions</a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+
+
+</html>

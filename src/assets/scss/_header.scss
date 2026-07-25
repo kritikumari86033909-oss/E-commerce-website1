@@ -1,0 +1,14 @@
+.top-header a:hover,
+.navbar a:hover {
+    color: #000 !important;
+}
+
+.navbar .form-control:focus,
+.navbar .form-select:focus {
+    box-shadow: none;
+    border-color: #ced4da;
+}
+
+.w-95{
+    width:95%;
+}

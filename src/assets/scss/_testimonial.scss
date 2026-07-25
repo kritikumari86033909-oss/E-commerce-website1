@@ -1,0 +1,31 @@
+.w-95{
+    width:90%;
+    margin:auto;
+}
+
+.testimonial{
+    background:url("../images/large-image.png") center/cover no-repeat;
+    min-height:600px;
+}
+
+.min-vh-75{
+    min-height:600px;
+}
+
+@media (max-width:991px){
+
+    .testimonial{
+        min-height:500px;
+        text-align:center;
+    }
+
+}
+
+@media (max-width:576px){
+
+    .testimonial{
+        min-height:420px;
+    }
+
+}
+
