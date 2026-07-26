@@ -3,22 +3,15 @@
 ==================================================*/
 
 $primary: #A67C52;
-$light: #F8F8F8;
+
 $white: #FFFFFF;
 $black: #222222;
+
 $gray: #666666;
-$gray-100: #F9F9F9;
-$gray-200: #F3F3F3;
 $gray-300: #E9E9E9;
-$gray-400: #D6D6D6;
-$gray-500: #9B9B9B;
-$gray-600: #666666;
 $gray-700: #444444;
 $gray-800: #2D2D2D;
 $gray-900: #111111;
-
-$border: #E9E9E9;
-
 
 $body-bg: $white;
 $body-color: $gray;
@@ -34,25 +27,16 @@ $font-family: "Inter", sans-serif;
 
 $font-size-base: 1rem;
 
-$h1-font-size: $font-size-base * 3.5;
-$h2-font-size: $font-size-base * 2.5;
-$h3-font-size: $font-size-base * 2;
-$h4-font-size: $font-size-base * 1.5;
-$h5-font-size: $font-size-base * 1.25;
-$h6-font-size: $font-size-base;
+$h1-font-size: 3.5rem;
+$h2-font-size: 2.5rem;
+$h3-font-size: 2rem;
+$h4-font-size: 1.5rem;
+$h5-font-size: 1.25rem;
+$h6-font-size: 1rem;
 
 $headings-font-weight: 600;
 $headings-line-height: 1.2;
 $headings-color: $gray-900;
-
-$display-font-sizes: (
-    1: 5rem,
-    2: 4rem,
-    3: 3rem,
-    4: 2.5rem
-);
-
-$display-font-weight: 600;
 
 
 /*==================================================
@@ -60,16 +44,6 @@ $display-font-weight: 600;
 ==================================================*/
 
 $spacer: 1rem;
-
-$spacers: (
-    0:0,
-    1:$spacer * .25,
-    2:$spacer * .5,
-    3:$spacer,
-    4:$spacer * 1.5,
-    5:$spacer * 3
-);
-
 $grid-gutter-width: 1.5rem;
 
 
@@ -87,18 +61,8 @@ $link-decoration: none;
 ==================================================*/
 
 $navbar-padding-y: 1rem;
-
 $navbar-brand-font-size: 1.5rem;
-
 $navbar-brand-font-weight: 700;
-
-$navbar-light-color: $gray-800;
-
-$navbar-light-hover-color: $primary;
-
-$navbar-nav-link-padding-x: 1rem;
-
-$nav-link-padding-y: .75rem;
 
 
 /*==================================================
@@ -110,21 +74,13 @@ $btn-border-radius: 50rem;
 $btn-padding-y: .75rem;
 $btn-padding-x: 1.5rem;
 
-$btn-padding-y-lg: 1rem;
-$btn-padding-x-lg: 2rem;
-
-$btn-padding-y-sm: .5rem;
-$btn-padding-x-sm: 1rem;
-
 
 /*==================================================
 =                 BORDER
 ==================================================*/
 
 $border-radius: .5rem;
-$border-radius-sm: .375rem;
 $border-radius-lg: 1rem;
-$border-radius-xl: 1.5rem;
 
 
 /*==================================================
@@ -133,9 +89,6 @@ $border-radius-xl: 1.5rem;
 
 $card-border-width: 0;
 $card-border-radius: 1rem;
-$card-bg: #ffffff;
-$card-color: $gray-700;
-$card-title-color: $gray-900;
 
 
 /*==================================================
@@ -143,37 +96,9 @@ $card-title-color: $gray-900;
 ==================================================*/
 
 $input-border-radius: 50rem;
-$input-padding-y: .75rem;
-$input-padding-x: 1.25rem;
 $input-border-color: $gray-300;
 $input-focus-border-color: $primary;
 $input-focus-box-shadow: none;
-
-
-/*==================================================
-=                 BREAKPOINTS
-==================================================*/
-
-$grid-breakpoints: (
-    xs:0,
-    sm:576px,
-    md:768px,
-    lg:992px,
-    xl:1200px,
-    xxl:1400px
-);
-
-$container-max-widths: (
-    sm:540px,
-    md:720px,
-    lg:960px,
-    xl:1140px,
-    xxl:1320px
-);
-
-
-
-
 
 
 
